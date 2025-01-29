@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    color: #D3CBC3;
+    font-family: 'Roboto Mono', monospace;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+    padding-top: 50px;
+}
+
+.kana {
+    font-size: 5em; /* Make the Kana larger */
+    margin: 20px 0; /* Add some spacing above and below */
+    text-align: center; /* Center the Kana text */
+    color: #FF7F50; /* Optional: Style the Kana with a nice color */
+}
+
+
+html, body {
+    background-color: #1C1C1C;
+}
+
+p {
+    color: #B8B1A7;
+}
+
+a {
+    text-decoration: none;
+    color: #E4B7A0;
+}
+
+a:hover {
+    color: #F3D9B1;
+}
+
+#container {
+    max-width: 740px;
+    margin: 0 auto;
+    background-color: #222120;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #3A3530;
+}
+
+main {
+    background-color: #222120;
+    flex: 1;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    color: #D3CBC3;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 22px;
+    text-align: center;
+    color: #E4B7A0;
+    margin: 15px 0;
+    font-size: 16;
+}
+
+p {
+        text-align: center;
+    }
+
+form {
+    text-align: center;
+
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+#articles {
+    margin-bottom: 5px;
+}
+
+#articles time {
+    color: #E4B7A0;
+}
+
+@media only screen and (max-width: 800px) {
+    #navbar ul {
+        flex-wrap: wrap;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
